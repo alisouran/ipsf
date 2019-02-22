@@ -1,0 +1,85 @@
+/*
+  ================================
+          <<=== Main ===>>
+  ================================
+*/
+body{
+    background-image: url('images/bg.jpg');
+    background-size: 100%;
+}
+a{
+	text-decoration: none !important;
+	color: black;
+	transition: .8s;
+}
+a:hover{
+	color: #1d879f;
+	transition: .8s;
+}
+
+/*
+  ================================
+        <<=== NavBar ===>>
+  ================================
+*/
+.navbar-bg-color{
+    background-color: #1d879f !important;
+}
+.navbar-text{
+    color: #eee !important;
+    padding: 5px 15px !important;
+}
+.navbar-text:active{
+    font-weight: bold !important;
+}
+.navbar-text:focus{
+    font-weight: bold !important;
+}
+.collapse>ul{
+    margin-left: auto;
+}
+.collapse>ul>li{
+    padding: 0px 10px;
+}
+
+
+/*
+  ================================
+   <<=== First Page Section ===>>
+  ================================
+*/
+
+.bg-icons-ipsf{
+    background-color: #1d879f;
+    border-radius: 50%;
+}
+.icons-pd{
+    padding: 40px
+}
+.icons-color{
+	color: white;
+}
+.ipsf-logo-pd{
+	padding: 15px;
+}
+.fpt-fonts{
+	font-size: 30px;
+	font-weight: bold;
+}
+.fpt-fonts>a{
+	color: #eee !important;
+}
+
+/*
+  ================================
+      <<=== News Section ===>>
+  ================================
+*/
+#newsSection{
+	display: none;
+}
+.slider-bg{
+	background-color:white;
+	padding: 20px;
+	border: 1px solid black;
+}
