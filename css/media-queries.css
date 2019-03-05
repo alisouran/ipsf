@@ -2,10 +2,14 @@
 /* CSS Document */
 
 @media screen and (max-width: 2560px) {
-
+	#hideNewsText > a,#hideSponsorText > a,#hideMemberText > a{
+		font-size: 90px;
+	}
 }
 @media screen and (max-width: 1920px) {
-
+	#hideNewsText > a,#hideSponsorText > a,#hideMemberText > a{
+		font-size: 35px;
+	}
 }
 @media screen and (max-width: 1680px) {
 
@@ -37,7 +41,12 @@
     
 }
 @media screen and (max-width: 800px) {
-
+	.icons-pd{
+		padding: 10px !important;
+	}
+	#hideNewsText > a,#hideSponsorText > a,#hideMemberText > a{
+		font-size: 25px;
+	}
 }
 @media screen and (max-width: 768px) {
 
@@ -52,19 +61,35 @@
 
 }
 @media screen and (max-width: 600px) {
-
+	.bg-icons-ipsf{
+		border-radius: 0% !important;
+		text-align: right !important;
+		border: 1px solid white;
+	}
+	.icons-pd{
+		padding: 0px !important;
+	}
+	.bg-icons-ipsf>div>h2{
+		text-align: center;
+		padding: 14%;
+		margin-bottom: 0 !important;
+		display: block !important;
+		font-size: 40px;
+	}
 }
 @media screen and (max-width: 568px) {
 
 }
 @media screen and (max-width: 480px) {
-
+	.bg-icons-ipsf>div>h2{
+		font-size: 30px;
+	}
 }
 @media screen and (max-width: 479px) {
 
 }
 @media screen and (max-width: 414px) {
-
+	
 }
 @media screen and (max-width: 375px) {
 

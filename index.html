@@ -6,41 +6,39 @@
     <title>IPSF</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--Start Css Style Files-->
+	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"> 
     <!--Css Reset-->
     <link rel="stylesheet" type="text/css" media="screen" href="css/cssReset.css">
     <!--BootStrap-->
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
-    <!--BootStrap RTL-->
-    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap-rtl.css">
     <!--Media Queries-->
     <link rel="stylesheet" type="text/css" media="screen" href="css/media-queries.css">
     <!--Animate Css-->
-    <link rel="stylesheet" type="text/css" media="screen" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/animate.css">
+	<!--Owl Carousel-->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
     <!--Custom Css Styles-->
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
 <!--End Css Style Files-->
 </head>
 <body>
 <!--Start NavBar-->
-    <header>
+    <header id="header">
 			<nav class="navbar navbar-expand-lg navbar-light navbar-bg-color">
-				<a class="navbar-brand" href="#"><b>IP</b>SF</a>
+				<!-- <a class="navbar-brand" href="#"><b>IP</b>SF</a> -->
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 						<img class="img-fluid border-hd" src="images/border.png" alt="">
-						<li class="nav-item">
-							<a class="nav-link navbar-text" href="#">Contact us</a>
+						<li class="nav-item active">
+							<a class="nav-link navbar-text" href="index.html">Home <span class="sr-only">(current)</span></a>
 						</li>
 						<img class="img-fluid border-hd" src="images/border.png" alt="">
 						<li class="nav-item">
-							<a class="nav-link navbar-text" href="#">Sep</a>
-						</li>
-						<img class="img-fluid border-hd" src="images/border.png" alt="">
-						<li class="nav-item">
-							<a class="nav-link navbar-text" href="#">Archive</a>
+							<a class="nav-link navbar-text" href="#">About</a>
 						</li>
 						<img class="img-fluid border-hd" src="images/border.png" alt="">
 						<li class="nav-item">
@@ -48,11 +46,15 @@
 						</li>
 						<img class="img-fluid border-hd" src="images/border.png" alt="">
 						<li class="nav-item">
-							<a class="nav-link navbar-text" href="#">About</a>
+							<a class="nav-link navbar-text" href="#">Archive</a>
 						</li>
 						<img class="img-fluid border-hd" src="images/border.png" alt="">
-						<li class="nav-item active">
-							<a class="nav-link navbar-text" href="#">Home <span class="sr-only">(current)</span></a>
+						<li class="nav-item">
+							<a class="nav-link navbar-text" href="#">Sep</a>
+						</li>
+						<img class="img-fluid border-hd" src="images/border.png" alt="">
+						<li class="nav-item">
+							<a class="nav-link navbar-text" href="#">Contact us</a>
 						</li>
 						<img class="img-fluid border-hd" src="images/border.png" alt="">
 					</ul>
@@ -64,27 +66,42 @@
 
 <!--Start Main Page -->
 	<section id="mainSection">
-		<div class="col-12">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 col-12">
 		<!--Start First Page Icons-->
 				<div class="row justify-content-center mt-5">
-					<div id="hideMemberIcon" class="col-5 col-md-2 col-lg-2 col-xl-2">
-						<a id="member" href="#">
-							<div class="bg-icons-ipsf text-center">
-								<img class="img-fluid icons-pd icons-bg" src="images/icons/avatar.svg" alt="">
-							</div>
-						</a>
-					</div>
-					<div id="hideSponsorIcon"  class="col-5 col-md-2 col-lg-2 col-xl-2">
-						<a id="sponsor" href="#">
-							<div class="bg-icons-ipsf text-center">
-								<img class="img-fluid ipsf-logo-pd icons-bg" src="images/icons/ipsf_logo.png" alt="">
-							</div>
-						</a>
-					</div>
-					<div id="hideNewsIcon"  class="col-5 col-md-2 col-lg-2 col-xl-2">
+					<div id="hideNewsIcon"  class="col-12 col-md-2 col-lg-2 col-xl-2 homeIcon">
 						<a id="news" href="#news">
-							<div class="bg-icons-ipsf text-center">
-								<img class="img-fluid icons-pd icons-bg" src="images/icons/news.svg" alt="">
+							<div class="row justify-content-center bg-icons-ipsf text-center">
+								<div class="col-4 col-lg-12 col-xl-12 col-md-12 col-xs-12">
+									<img class="img-fluid icons-pd icons-bg" src="images/icons/news.svg" alt="">
+								</div>
+								<div class="col-8 col-lg-12 col-xl-12 col-md-12 col-xs-12">
+									<h2>News</h2>	
+								</div>
+							</div>
+						</a>
+					</div>
+					<div id="hideSponsorIcon"  class="col-12 col-md-2 col-lg-2 col-xl-2 homeIcon">
+						<a id="sponsor" href="#">
+							<div class="row justify-content-center bg-icons-ipsf text-center">
+								<div class="col-4 col-lg-12 col-xl-12 col-md-12 col-xs-12">
+									<img class="img-fluid icons-pd icons-bg" src="images/icons/ipsf_logo.png" alt="">
+								</div>
+								<div class="col-8 col-lg-12 col-xl-12 col-md-12 col-xs-12">
+									<h2>Sponsor</h2>	
+								</div>
+							</div>
+						</a>
+					</div>
+					<div id="hideMemberIcon" class="col-12 col-md-2 col-lg-2 col-xl-2 homeIcon">
+						<a id="member" href="#">
+							<div class="row justify-content-center bg-icons-ipsf text-center">
+								<div class="col-4 col-lg-12 col-xl-12 col-md-12 col-xs-12">
+									<img class="img-fluid icons-pd icons-bg" src="images/icons/avatar.svg" alt="">
+								</div>
+								<div class="col-8 col-lg-12 col-xl-12 col-md-12 col-xs-12">
+									<h2>Member</h2>	
+								</div>
 							</div>
 						</a>
 					</div>
@@ -93,8 +110,8 @@
 		<!--Start First Page Texts-->
 				<div class="row justify-content-center mt-2">
 						<div class="d-none d-sm-none col-md-2 col-lg-2 col-xl-2 d-md-block d-lg-block d-xl-block ">
-							<div id="hideMemberText" class="text-center fpt-fonts">
-								<a href="#">Members</a>
+							<div id="hideNewsText" class="text-center fpt-fonts">
+								<a href="#news">News</a>
 							</div>
 						</div>
 						<div class="d-none d-sm-none col-md-2 col-lg-2 col-xl-2 d-md-block d-lg-block d-xl-block ">
@@ -103,8 +120,8 @@
 							</div>
 						</div>
 						<div class="d-none d-sm-none col-md-2 col-lg-2 col-xl-2 d-md-block d-lg-block d-xl-block ">
-							<div id="hideNewsText" class="text-center fpt-fonts">
-								<a href="#news">News</a>
+							<div id="hideMemberText" class="text-center fpt-fonts">
+								<a href="#">Members</a>
 							</div>
 						</div>
 					</div>
@@ -114,25 +131,85 @@
 <!--End Main Page -->
 
 <!--Start News Section-->
-	<section id="newsSection" style="display: none">
+	<section id="newsSection">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 col-12">
 			<div class="row justify-content-center mt-4">
-				News
+				<div class="col-lg-2 col-md-2 col-sm-2 col-xl-2 col-2">
+					<a id="news_back" href="#"><span class="fas fa-arrow-alt-circle-left back-icon"></span></a>
+				</div>
+				<div class="col-lg-10 col-md-10 col-sm-10 col-xl-10 col-10">
+					News
+				</div>
 			</div>
-			<div class="row justify-content-center mt-3">
-				<div class="col-lg-8 col-md-8 col-sm-8 col-xl-8 col-8 slider-bg">
-					<div class="col-lg-9" style="background-color: red; padding: 10px">
-						content
+			<div class="row justify-content-center mt-4">
+				<div class="col-lg-8 slider-bg">
+					<div class="row justify-content-center mt-3">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 col-12" id="newsNavContent4">
+							<div id="newsNavContent1">
+								<div class="col-lg-9" style="background-color: red; padding: 10px">
+									content1
+								</div>
+								<div class="col-lg-3" style="background-color: blue; padding: 10px">
+									<div class="row justify-content-center">
+										top
+									</div>
+									<div class="row justify-content-center">
+										content
+									</div>
+									<div class="row justify-content-center">
+										bottom
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 col-12" id="newsNavContent5" style="display: none">
+							<div id="newsNavContent2" style="display: none">
+								<div class="col-lg-9" style="background-color: red; padding: 10px">
+									content2
+								</div>
+								<div class="col-lg-3" style="background-color: blue; padding: 10px">
+									<div class="row justify-content-center">
+										top
+									</div>
+									<div class="row justify-content-center">
+										content
+									</div>
+									<div class="row justify-content-center">
+										bottom
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 col-12" id="newsNavContent6" style="display: none">
+							<div id="newsNavContent3" style="display: none">
+								<div class="col-lg-9" style="background-color: red; padding: 10px">
+									content3
+								</div>
+								<div class="col-lg-3" style="background-color: blue; padding: 10px">
+									<div class="row justify-content-center">
+										top
+									</div>
+									<div class="row justify-content-center">
+										content
+									</div>
+									<div class="row justify-content-center">
+										bottom
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div class="col-lg-3" style="background-color: blue; padding: 10px">
-						<div class="row justify-content-center">
-							top
-						</div>
-						<div class="row justify-content-center">
-							content
-						</div>
-						<div class="row justify-content-center">
-							bottom
+					<div class="row justify-content-center">
+						<div class="col-lg-12 pd-0">
+							<div class="tabs-bg">
+								<img class="img-fluid border-hd" src="images/borderB.png" alt="">
+								<a class="newsNavBtn" id="navBtnIPSF" href="#">IPSF</a>
+								<img class="img-fluid border-hd" src="images/borderB.png" alt="">
+								<a class="newsNavBtn" id="navBtnIPHSA" href="#">IPHSA</a>
+								<img class="img-fluid border-hd" src="images/borderB.png" alt="">
+								<a class="newsNavBtn" id="navBtnCourse" href="#">Course</a>
+								<img class="img-fluid border-hd" src="images/borderB.png" alt="">
+							</div>
 						</div>
 					</div>
 				</div>
@@ -141,13 +218,50 @@
 	</section>
 <!--End News Section-->
 
+<!--Start Sponsor Section-->
+<section id="sponsorSection">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xl-12 col-12 mt-6">
+		<div class="row justify-content-center mt-4">
+			<div class="col-lg-2 col-md-2 col-sm-2 col-xl-2 col-2">
+				<a id="sponsor_back" href="#"><span class="fas fa-arrow-alt-circle-left back-icon"></span></a>
+			</div>
+			<div class="col-lg-10 col-md-10 col-sm-10 col-xl-10 col-10">
+				Sponsor
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="col-lg-8">
+					<div class="owl-carousel owl-theme owl-loaded">
+						<div><img class="img-fluid" src="images/icons/avatar.svg" alt=""></div>
+						<div><img class="img-fluid" src="images/icons/ipsf_logo.png" alt=""></div>
+						<div><img class="img-fluid" src="images/icons/news.svg" alt=""></div>
+						<div><img class="img-fluid" src="images/icons/avatar.svg" alt=""></div>
+						<div><img class="img-fluid" src="images/icons/ipsf_logo.png" alt=""></div>
+						<div><img class="img-fluid" src="images/icons/news.svg" alt=""></div>
+					</div>
+			</div>
+		</div>
+	</div>
+
+</section>
+<!--End Sponsor Section-->
+
+
+<!--Start Member Section-->
+
+<!--End Member Section-->
+
 <!--Start Script Files-->
     <!--JQuery-->
     <script src="js/jquery-3.3.1.js"></script>
     <!--BootStrap-->
-		<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!--Font Awesome-->
+	<script src="js/all.min.js"></script>
     <!--Custom Scripts-->
-    <script src="js/script.js"></script>
+	<script src="js/script.js"></script>
+	<!--Owl Carousel-->
+	<script src="js/owl.carousel.min.js"></script>
 <!--End Script Files-->
 </body>
 </html>
