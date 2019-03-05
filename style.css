@@ -28,7 +28,7 @@ a:hover{
   ================================
 */
 .navbar-bg-color{
-		background-color: rgb(29, 135, 159,0.8) !important;
+		background-color: #1d879fcc !important;
 		transition: .8s;
 }
 .navbar-text{
@@ -48,7 +48,7 @@ a:hover{
     padding: 0px 10px;
 }
 .header-scrolled{
-	background-color:rgb(29, 135, 159) !important;
+	background-color:#1d879f !important;
 	transition: .8s;
 }
 
@@ -161,11 +161,11 @@ a:hover{
 */
 
 .banner-area {
-    background: linear-gradient(0deg, rgb(29, 135, 159,0.8), rgb(29, 135, 159,0.8)), url(../img/banner-bg.jpg) no-repeat center;
-    background: -webkit-linear-gradient(0deg, rgb(29, 135, 159,0.8), rgb(29, 135, 159,0.8)), url(../img/banner-bg.jpg) no-repeat center;
-    background: -moz-linear-gradient(0deg, rgb(29, 135, 159,0.8), rgb(29, 135, 159,0.8)), url(../img/banner-bg.jpg) no-repeat center;
-    background: -ms-linear-gradient(0deg, rgb(29, 135, 159,0.8), rgb(29, 135, 159,0.8)), url(../img/banner-bg.jpg) no-repeat center;
-    background: -o-linear-gradient(0deg, rgb(29, 135, 159,0.8), rgb(29, 135, 159,0.8)), url(../img/banner-bg.jpg) no-repeat center;
+    background: linear-gradient(0deg, #1d879fcc, #1d879fcc), url(../img/banner-bg.jpg) no-repeat center;
+    background: -webkit-linear-gradient(0deg, #1d879fcc, #1d879fcc), url(../img/banner-bg.jpg) no-repeat center;
+    background: -moz-linear-gradient(0deg, #1d879fcc, #1d879fcc), url(../img/banner-bg.jpg) no-repeat center;
+    background: -ms-linear-gradient(0deg, #1d879fcc, #1d879fcc), url(../img/banner-bg.jpg) no-repeat center;
+    background: -o-linear-gradient(0deg, #1d879fcc, #1d879fcc), url(../img/banner-bg.jpg) no-repeat center;
 		background-size: cover; 
 }
 .banner-area .primary-btn {
@@ -428,7 +428,7 @@ a:hover{
     color: #cccccc;
     font-size: 14px; }
     .main_blog_details .news_d_footer .news_socail a:hover {
-      color: rgb(29, 135, 159,0.8); }
+      color: #1d879fcc; }
     .main_blog_details .news_d_footer .news_socail a:last-child {
 			margin-right: 0px; }
 			.header-top .lnr {
@@ -447,7 +447,7 @@ a:hover{
 				.contact-page-area .single-contact-address .lnr {
 					font-size: 20px;
 					font-weight: 500;
-					color: rgb(29, 135, 159,0.8);
+					color: #1d879fcc;
 					margin-right: 20px; }
 					.single-post-area .arrow .lnr {
 						font-size: 20px;
@@ -663,7 +663,7 @@ a:hover{
 			border-radius: 5px;
 			line-height: 48px;
 			padding: 0px 30px;
-			background: rgb(29, 135, 159,0.8);
+			background: #1d879fcc;
 			color: #fff; }
 			.comment-form .submit_btn:hover {
 				background: transparent;
@@ -712,14 +712,14 @@ a:hover{
       top: 3px;
       height: 20px;
       width: 20px;
-      background: rgb(29, 135, 159,0.8); }
+      background: #1d879fcc; }
 			.search-widget i {
 				padding: 8px 13px;
-				background: rgb(29, 135, 159,0.8);
+				background: #1d879fcc;
 				border-radius: 29px;
 				color: #fff;
 				font-size: 20px;
-				border: 1px solid rgb(29, 135, 159,0.8); }
+				border: 1px solid #1d879fcc; }
 			.search-widget form.example {
 				border: 1px solid #eee;
 				background: #f9f9ff;
@@ -777,7 +777,7 @@ a:hover{
 					.protfolio-widget ul li a i {
 						color: #dddddd; }
 						.protfolio-widget ul li a i:hover {
-							color: rgb(29, 135, 159,0.8); }
+							color: #1d879fcc; }
 		.popular-posts-widget .single-popular-post .popular-details {
   margin-left: 20px; }
   .popular-posts-widget .single-popular-post .popular-details h4 {
@@ -791,7 +791,7 @@ a:hover{
     font-size: 12px;
     margin-top: 10px; }
 .popular-posts-widget .single-popular-post:hover h4 {
-  color: rgb(29, 135, 159,0.8); }
+  color: #1d879fcc; }
 @media (max-width: 960px) {
   .popular-posts-widget .single-popular-post {
     margin-bottom: 20px; } }
@@ -830,17 +830,17 @@ a:hover{
 					-o-transition: all 0.3s ease 0s;
 					transition: all 0.3s ease 0s; }
 				.category-widget ul li:hover {
-					border-color: rgb(29, 135, 159,0.8); }
+					border-color: #1d879fcc; }
 					.category-widget ul li:hover p,
 					.category-widget ul li:hover p:after,
 					.category-widget ul li:hover span {
-						color: rgb(29, 135, 159,0.8); }
+						color: #1d879fcc; }
 						.newsletter-widget .primary-btn {
-							background: rgb(29, 135, 159,0.8);
+							background: #1d879fcc;
 							color: #fff;
 							width: 100%;
 							line-height: 48px;
-							border: 1px solid rgb(29, 135, 159,0.8); }
+							border: 1px solid #1d879fcc; }
 							.newsletter-widget .primary-btn:hover {
 								background: transparent;
 								color: #000; }
@@ -905,7 +905,7 @@ a:hover{
   transition: all 0.3s linear;
   margin-bottom: 13px; }
   .single-footer-widget ul li a:hover {
-    color: rgb(29, 135, 159,0.8); }
+    color: #1d879fcc; }
 .single-footer-widget .instafeed {
   margin-left: -5px;
   margin-right: 20px; }
@@ -944,7 +944,7 @@ a:hover{
   .single-footer-widget input:focus {
     outline: none; }
 .single-footer-widget .sub-btn {
-  background: rgb(29, 135, 159,0.8);
+  background: #1d879fcc;
   color: #fff;
   font-weight: 300;
   border-radius: 0;
@@ -998,10 +998,10 @@ a:hover{
 										font-size: 12px;
 										padding-left: 20px; }
 										.default-select .nice-select .list .option.selected {
-											color: rgb(29, 135, 159,0.8);
+											color: #1d879fcc;
 											background: transparent; }
 										.default-select .nice-select .list .option:hover {
-											color: rgb(29, 135, 159,0.8);
+											color: #1d879fcc;
 											background: transparent; }
 							.default-select .current {
 								margin-right: 50px;
@@ -1038,10 +1038,10 @@ a:hover{
 										font-size: 12px;
 										padding-left: 45px; }
 										.form-select .nice-select .list .option.selected {
-											color: rgb(29, 135, 159,0.8);
+											color: #1d879fcc;
 											background: transparent; }
 										.form-select .nice-select .list .option:hover {
-											color: rgb(29, 135, 159,0.8);
+											color: #1d879fcc;
 											background: transparent; }
 
 .banner-area{
